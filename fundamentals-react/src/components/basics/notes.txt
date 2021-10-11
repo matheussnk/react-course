@@ -9,3 +9,4 @@ import Fragments from'./components/basics/Fragments'
 <WithParameter title="Grades" student="Jhon  Doe" grades='7.9'></WithParameter>
 <WithParameter title="Grades" student="Susan Doe" grades='8.0'></WithParameter>
 <Fragments></Fragments>
+<Random min={1} max={60} />
