@@ -1,3 +1,8 @@
-export default function First(params) {
-    return ('First Component')
+import React from 'react'
+
+export default function First() {
+    const msg = 'Welcome'
+    return (
+    <><h2>First Component</h2><p>{msg}</p></>
+    )
 }
